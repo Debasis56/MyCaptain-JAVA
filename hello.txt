@@ -1,0 +1,9 @@
+
+public class sampleHello
+{
+   
+    public static void main()
+    {
+        System.out.println(" HELLO!! ");
+    }
+}
