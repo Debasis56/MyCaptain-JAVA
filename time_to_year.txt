@@ -1,0 +1,25 @@
+package MyCaptainCourse;
+
+import java.util.Scanner;
+public class time_to_year {
+	
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		long time;
+		System.out.print(" Input the number of minutes ");
+		time = sc.nextLong();
+		long days  = time/1440;
+		if(days>=365)
+		{
+			long year = days/365;
+			days = days-(year*365);
+			System.out.println("YEAR = "+year+" Days = "+days);	
+		}
+		else
+		{
+			System.out.println("DAYS = "+days);
+		}
+		
+	}
+}
