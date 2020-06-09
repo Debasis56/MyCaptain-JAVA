@@ -27,6 +27,12 @@ public class Class_object {
 	Class_object ob1 = new Class_object();
 	ob1.getdata();
 	ob1.printData();
+Class_object ob2 = new Class_object();
+	ob2.getdata();
+	ob2.printData();
+Class_object ob3 = new Class_object();
+	ob3.getdata();
+	ob3.printData();
 	}
 
 }
