@@ -1,0 +1,32 @@
+package loop_project;
+
+import java.util.Scanner;
+
+public class Class_object {
+	Scanner sc = new Scanner(System.in);
+	String Name;
+	int age;
+	int salary;
+	int date_of_joining;
+	public void getdata()
+	{
+	System.out.println(" Enter name of the employee \t  Age \t Salary \t Date of joining");
+	this.Name = sc.nextLine();
+	this.age = sc.nextInt();
+	this.salary = sc.nextInt();
+	this.date_of_joining = sc.nextInt();
+	}
+	public void printData()
+	{
+		System.out.println(" Enter name of the employee \t  Age \t Salary \t Date of joining");
+		System.out.println(Name+"\t"+age+"\t"+salary+"\t+date_of_joining");
+	}
+
+	public static void main()
+	{
+	Class_object ob1 = new Class_object();
+	ob1.getdata();
+	ob1.printData();
+	}
+
+}
