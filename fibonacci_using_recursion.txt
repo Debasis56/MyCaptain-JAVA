@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class fibonacci_using_recursion {
+	public  static long fibonacci_using_recursion(long c)
+	{
+		if(c<=1)
+			return c;
+		return fibonacci_using_recursion(c-1)+fibonacci_using_recursion(c-2);
+			
+	}
+	public static void main(String[] args)
+	{
+		Scanner sc= new Scanner(System.in);
+		long c;
+		System.out.println(" Enter the term we want : ");
+		c = sc.nextLong();
+		System.out.println(fibonacci_using_recursion(c-1));
+		
+
+		
+	}
+	
+}
